@@ -14,6 +14,8 @@
 		7E53DC051CA468D90075FB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E53DC031CA468D90075FB22 /* LaunchScreen.storyboard */; };
 		7E53DC101CA468D90075FB22 /* tlsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53DC0F1CA468D90075FB22 /* tlsTestTests.swift */; };
 		7E53DC1B1CA468D90075FB22 /* tlsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53DC1A1CA468D90075FB22 /* tlsTestUITests.swift */; };
+		7E53DC291CA469000075FB22 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53DC281CA469000075FB22 /* SwiftyJSON.swift */; };
+		7E53DC2B1CA4691B0075FB22 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53DC2A1CA4691B0075FB22 /* RestApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7E53DC161CA468D90075FB22 /* tlsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tlsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E53DC1A1CA468D90075FB22 /* tlsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tlsTestUITests.swift; sourceTree = "<group>"; };
 		7E53DC1C1CA468D90075FB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E53DC281CA469000075FB22 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
+		7E53DC2A1CA4691B0075FB22 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				7E53DBFA1CA468D90075FB22 /* AppDelegate.swift */,
+				7E53DC281CA469000075FB22 /* SwiftyJSON.swift */,
 				7E53DBFC1CA468D90075FB22 /* ViewController.swift */,
+				7E53DC2A1CA4691B0075FB22 /* RestApiManager.swift */,
 				7E53DBFE1CA468D90075FB22 /* Main.storyboard */,
 				7E53DC011CA468D90075FB22 /* Assets.xcassets */,
 				7E53DC031CA468D90075FB22 /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E53DC291CA469000075FB22 /* SwiftyJSON.swift in Sources */,
 				7E53DBFD1CA468D90075FB22 /* ViewController.swift in Sources */,
+				7E53DC2B1CA4691B0075FB22 /* RestApiManager.swift in Sources */,
 				7E53DBFB1CA468D90075FB22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
